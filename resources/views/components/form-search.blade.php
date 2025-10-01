@@ -1,0 +1,11 @@
+<form action="?" method="get">
+    <div class="input-group">
+        <input
+        {{ $attributes->merge(['class' => 'form-control', 'type', 'name' => 'search',
+            'value' => request('search')]) }}>
+
+            <button class="btn btn-primary" type="submit">
+                <i class="bi bi_search"></i>
+        </button>
+        </div>
+        </form>
