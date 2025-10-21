@@ -4,6 +4,8 @@
 </div>
 
 <div class="col">
-    <x-form-search placeholder="Cari nama/email user..."/>
+    <x-form-search placeholder="Cari nama/email user..." />
+    
 </div>
+
 </div>

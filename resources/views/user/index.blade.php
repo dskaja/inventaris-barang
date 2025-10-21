@@ -9,6 +9,8 @@
 
             <div class="card-body">
                 {{ $users->links() }}
+                
+                
 </div>
 </div>
 </x-main-layout>

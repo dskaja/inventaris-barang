@@ -5,7 +5,7 @@
             'value' => request('search')]) }}>
 
             <button class="btn btn-primary" type="submit">
-                <i class="bi bi_search"></i>
+                <i class="bi bi-search"></i>
         </button>
         </div>
         </form>

@@ -25,5 +25,17 @@
                 </div>
             </div>
         </div>
+
+        <!-- TAMBAHKAN INI - Card Peminjaman Terbaru -->
+        <div class="col-lg-12 mb-4">
+            <div class="card shadow">
+                <div class="card-header py-3">
+                    <h6>5 Peminjaman Aktif Terbaru</h6>
+                </div>
+                <div class="card-body table-responsive">
+                    @include('dashboard-partials.list-peminjaman-terbaru')
+                </div>
+            </div>
+        </div>
     </div>
 </x-main-layout>

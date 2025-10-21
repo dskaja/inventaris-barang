@@ -42,12 +42,12 @@
     <script>
         const deleteModal = document.getElementById('deleteModal')
 
-        deleteModal.addEventListener('show.bs.modal', event => {
-            const button = event.relatedTarget
-            cosnt url = button.getAttribute('data-url')
-            cosnt deleteFrom = deleteModal.querySelector('form')
-            deleteForm.setAttribute('action', url)
-        });
+deleteModal.addEventListener('show.bs.modal', event => {
+    const button = event.relatedTarget;
+    const url = button.getAttribute('data-url'); // ✅ const (bukan cosnt)
+    const deleteForm = deleteModal.querySelector('form'); // ✅ const & deleteForm
+    deleteForm.setAttribute('action', url);
+});
         </script>
 </body>
 </html>
